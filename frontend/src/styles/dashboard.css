@@ -1,0 +1,59 @@
+/* =============================
+   Dashboard — ProductSuite
+   ============================= */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f4f8fa;
+  color: #333;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-header {
+  background: linear-gradient(90deg, #007b9e, #00bcd4);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-info button {
+  background: #fff;
+  color: #007b9e;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.user-info button:hover {
+  background: #e0f7fa;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 5rem;
+  color: #555;
+  font-size: 1.2rem;
+}

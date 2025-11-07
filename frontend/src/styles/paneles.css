@@ -1,0 +1,108 @@
+/* ==========================================================
+   ProductSuite — Paneles de Personal
+   ========================================================== */
+
+.paneles-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+  text-align: center;
+  color: #1e2a3a;
+}
+
+.paneles-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #003a63;
+  margin-bottom: 0.5rem;
+}
+
+.paneles-subtitle {
+  color: #555;
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+}
+
+/* ===== GRID ===== */
+.paneles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* ===== CARD ===== */
+.panel-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem 1rem 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.panel-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== AVATAR ===== */
+.panel-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #007b9e;
+}
+
+/* ===== NOMBRE ===== */
+.panel-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #003a63;
+  margin-bottom: 1rem;
+}
+
+/* ===== BOTÓN ===== */
+.btn-incidencias {
+  background-color: #007b9e;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-incidencias:hover {
+  background-color: #005f79;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .panel-card {
+    max-width: 90%;
+  }
+}
+.btn-export {
+  background-color: #007b9e;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-export:hover {
+  background-color: #005f7a;
+}

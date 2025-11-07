@@ -1,0 +1,26 @@
+.ps-header {
+  background: #0d2a4d; /* azul oscuro mate */
+  color: #fff;
+  position: sticky; top: 0; z-index: 50;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+.ps-header__inner {
+  max-width: 1200px; margin: 0 auto; height: 72px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 16px; gap: 16px;
+}
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; }
+.brand__logo { width: 40px; height: 40px; object-fit: contain; }
+.brand__name { font-weight: 700; letter-spacing: .3px; font-size: 18px; }
+
+.nav { display: flex; gap: 18px; }
+.nav__link { color: #dbe7f5; text-decoration: none; font-weight: 500; }
+.nav__link.active, .nav__link:hover { color: #00bcd4; }
+
+.user { display: flex; align-items: center; gap: 12px; }
+.user__name { font-size: 14px; opacity: .9; }
+.btn-logout {
+  background: #083055; color: #fff; border: 1px solid rgba(255,255,255,.2);
+  padding: 8px 12px; border-radius: 8px; cursor: pointer;
+}
+.btn-logout:hover { background: #0a3c6f; }

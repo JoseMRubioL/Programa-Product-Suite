@@ -1,0 +1,10 @@
+.ps-footer {
+  background: #0d2a4d; color: #e8f1fb;
+  margin-top: 24px; border-top: 1px solid rgba(255,255,255,.08);
+}
+.ps-footer__inner {
+  max-width: 1200px; margin: 0 auto; min-height: 88px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 16px; gap: 12px; flex-wrap: wrap;
+  font-size: 14px;
+}

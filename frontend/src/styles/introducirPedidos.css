@@ -1,0 +1,100 @@
+.introducir-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #0a2540;
+  margin-bottom: 1rem;
+}
+
+.mensaje {
+  text-align: center;
+  padding: 0.8rem;
+  background: #e7f7ef;
+  color: #007b9e;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.pedido-form {
+  margin-bottom: 2rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.guardar-btn {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 1rem 2rem;
+  background-color: #0a2540;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.guardar-btn:hover {
+  background-color: #007b9e;
+}
+
+.lista-pedidos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pedido-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.estado-container select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.exportar-btn {
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.exportar-btn:hover {
+  background-color: #0097a7;
+}

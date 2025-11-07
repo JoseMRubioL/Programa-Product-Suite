@@ -1,0 +1,22 @@
+/* src/styles/global.css */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #132b44;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

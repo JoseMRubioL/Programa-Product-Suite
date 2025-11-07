@@ -1,0 +1,76 @@
+/* ============================================
+   ProductSuite - Menú principal de Pedidos
+   ============================================ */
+
+.pedidos-menu {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pedidos-menu h2 {
+  font-size: 2rem;
+  color: #003b6d;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.pedidos-subtitle {
+  color: #4a5568;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* Contenedor de botones */
+.pedidos-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+/* Botones principales */
+.pedidos-buttons button {
+  background-color: #007b9e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem 2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  min-width: 220px;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 158, 0.2);
+}
+
+.pedidos-buttons button:hover {
+  background-color: #005f75;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 123, 158, 0.3);
+}
+
+/* Efecto activo */
+.pedidos-buttons button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0, 123, 158, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pedidos-buttons button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .pedidos-menu {
+    padding: 2rem 1.5rem;
+  }
+}
